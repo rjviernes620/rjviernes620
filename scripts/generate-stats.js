@@ -80,7 +80,6 @@ function generateStatsSVG(user, totalStars, totalForks) {
   const prs = user.pullRequests.totalCount;
   const issues = user.issues.totalCount;
   const followers = user.followers.totalCount;
-  const reposCount = user.repositories.nodes.length;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
   <defs>
@@ -205,6 +204,126 @@ function generateLanguagesSVG(languages) {
 </svg>`;
 }
 
+async function fetchUserEvents() {
+  try {
+    const response = await fetch(`https://api.github.com/users/${USERNAME}/events/public`, {
+      headers: {
+        'Authorization': `bearer ${GITHUB_TOKEN}`,
+        'User-Agent': 'NodeJS-Stats-Generator'
+      }
+    });
+
+    if (!response.ok) {
+      console.warn(`Failed to fetch public events, status: ${response.status}`);
+      return [];
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.error('Error fetching user events:', error);
+    return [];
+  }
+}
+
+function formatEvents(events) {
+  if (!events || events.length === 0) {
+    return '*No recent public activity found.*';
+  }
+
+  const formatted = [];
+  const maxEvents = 5;
+
+  for (const event of events) {
+    if (formatted.length >= maxEvents) break;
+
+    const repoName = event.repo.name;
+    const repoUrl = `https://github.com/${repoName}`;
+    const repoLink = `[${repoName.split('/')[1]}](${repoUrl})`;
+
+    switch (event.type) {
+      case 'PushEvent': {
+        const commitCount = event.payload.commits ? event.payload.commits.length : 0;
+        if (commitCount === 0) continue;
+        const latestCommitMsg = event.payload.commits[0].message.split('\n')[0];
+        const commitsText = commitCount === 1 ? '1 commit' : `${commitCount} commits`;
+        formatted.push(`📝 Pushed ${commitsText} to ${repoLink}: *"${latestCommitMsg}"*`);
+        break;
+      }
+      case 'CreateEvent': {
+        if (event.payload.ref_type === 'repository') {
+          formatted.push(`🚀 Created repository ${repoLink}`);
+        } else if (event.payload.ref_type === 'branch') {
+          formatted.push(`🌱 Created branch \`${event.payload.ref}\` in ${repoLink}`);
+        }
+        break;
+      }
+      case 'PullRequestEvent': {
+        const prNumber = event.payload.number;
+        const prTitle = event.payload.pull_request.title;
+        const prLink = `[#${prNumber}](${event.payload.pull_request.html_url})`;
+        if (event.payload.action === 'opened') {
+          formatted.push(`🔓 Opened pull request ${prLink} in ${repoLink}: *"${prTitle}"*`);
+        } else if (event.payload.action === 'closed' && event.payload.pull_request.merged) {
+          formatted.push(`💜 Merged pull request ${prLink} in ${repoLink}: *"${prTitle}"*`);
+        }
+        break;
+      }
+      case 'IssuesEvent': {
+        const issueNumber = event.payload.issue.number;
+        const issueTitle = event.payload.issue.title;
+        const issueLink = `[#${issueNumber}](${event.payload.issue.html_url})`;
+        if (event.payload.action === 'opened') {
+          formatted.push(`⚠️ Opened issue ${issueLink} in ${repoLink}: *"${issueTitle}"*`);
+        } else if (event.payload.action === 'closed') {
+          formatted.push(`✅ Closed issue ${issueLink} in ${repoLink}`);
+        }
+        break;
+      }
+      case 'IssueCommentEvent': {
+        const issueNumber = event.payload.issue.number;
+        const issueLink = `[#${issueNumber}](${event.payload.issue.html_url})`;
+        formatted.push(`💬 Commented on ${event.payload.issue.pull_request ? 'pull request' : 'issue'} ${issueLink} in ${repoLink}`);
+        break;
+      }
+    }
+  }
+
+  if (formatted.length === 0) {
+    return '*No recent public commits, PRs, or issues.*';
+  }
+
+  return formatted.map(line => `- ${line}`).join('\n');
+}
+
+function updateReadmeWithActivity(activityMarkdown) {
+  const readmePath = path.join(__dirname, '..', 'README.md');
+  if (!fs.existsSync(readmePath)) {
+    console.error('Error: README.md not found.');
+    return;
+  }
+
+  let content = fs.readFileSync(readmePath, 'utf8');
+  
+  const startTag = '<!--START_SECTION:activity-->';
+  const endTag = '<!--END_SECTION:activity-->';
+
+  const startIndex = content.indexOf(startTag);
+  const endIndex = content.indexOf(endTag);
+
+  if (startIndex === -1 || endIndex === -1) {
+    console.error('Error: START_SECTION or END_SECTION comments missing from README.md.');
+    return;
+  }
+
+  const updatedContent = 
+    content.substring(0, startIndex + startTag.length) + 
+    '\n' + activityMarkdown + '\n' + 
+    content.substring(endIndex);
+
+  fs.writeFileSync(readmePath, updatedContent);
+  console.log('README.md updated with latest activity!');
+}
+
 async function main() {
   console.log('Fetching GitHub profile stats...');
   const user = await fetchStats();
@@ -240,8 +359,14 @@ async function main() {
 
   fs.writeFileSync(path.join(assetsDir, 'stats.svg'), statsSVG);
   fs.writeFileSync(path.join(assetsDir, 'languages.svg'), langsSVG);
-  
   console.log('Stats cards generated successfully at assets/stats.svg and assets/languages.svg!');
+
+  console.log('Fetching public activity...');
+  const events = await fetchUserEvents();
+  const activityMarkdown = formatEvents(events);
+
+  console.log('Updating README activity feed...');
+  updateReadmeWithActivity(activityMarkdown);
 }
 
 main();

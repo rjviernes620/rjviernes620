@@ -22,25 +22,17 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Generate Stats SVGs
+      - name: Generate Dashboard and Activity
         run: node scripts/generate-stats.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and Push SVGs
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/languages.svg
-          git diff-index --quiet HEAD || git commit -m "📊 Update generated stats SVGs"
+          git add assets/stats.svg assets/languages.svg README.md
+          git diff-index --quiet HEAD || git commit -m "⚡ Update dashboard stats and live activity feed"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Fetch and Insert Activity
-        uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: "⚡ Update README with recent activity"
-          MAX_LINES: 5
