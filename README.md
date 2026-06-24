@@ -97,7 +97,7 @@ Below are some of my primary projects. Click on the project name to view the rep
 </p>
 
 <!--START_SECTION:activity-->
-*Waiting for the GitHub Action to populate recent activities...*
+- 🌱 Created branch `main` in [rjviernes620](https://github.com/rjviernes620/rjviernes620)
 <!--END_SECTION:activity-->
 
 ---
