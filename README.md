@@ -1,24 +1,22 @@
-# 🌌 Hello World, I'm Roel-Junior! 👋
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:a855f7&height=220&section=header&text=Roel-Junior%20Viernes&fontSize=42&animation=fadeIn&fontColor=ffffff" alt="Roel-Junior's Banner" width="100%" />
+  <img src="assets/banner.svg" alt="Roel-Junior Viernes Banner" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://github.com/rjviernes620">
-    <img src="https://readme-typing-svg.demolab.com?font=Inconsolata&size=22&duration=3000&pause=1000&color=6366f1&center=true&vCenter=true&width=600&lines=Full-Stack+%2F+Tooling+Enthusiast;I+code+things+which+look+cool;Automating+tasks+I'm+too+lazy+to+do;Welcome+to+my+digital+playground!+✨" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inconsolata&size=22&duration=3000&pause=1000&color=6366f1&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Tooling+%26+Automation+Enthusiast;I+code+things+which+look+cool;Welcome+to+my+digital+playground!+✨" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.rjaviernes.codes" target="_blank">
-    <img src="https://img.shields.io/badge/Website-rjaviernes.codes-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+  <a href="https://rjviernes.tech" target="_blank">
+    <img src="https://img.shields.io/badge/Website-rjviernes.tech-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
   </a>
   <a href="https://linkedin.com/in/roel-junior-alejo-viernes-bab8a7253" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-a855f7?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/rjviernes620" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Profile-0a0b10?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="mailto:roel@rjviernes.tech" target="_blank">
+    <img src="https://img.shields.io/badge/Email-roel%40rjviernes.tech-0f172a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
@@ -43,11 +41,22 @@ $ npx roel-junior --quote
 
 I specialize in building modular web apps and automation workflows using the following stack:
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,py,html,css,react,nodejs,redux,firebase,git,github,githubactions,npm,vscode,latex&perline=8&theme=dark" alt="My Tech Stack" />
-  </a>
-</p>
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <h4>💻 Languages</h4>
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,py,html,css,latex&perline=3&theme=dark" alt="Languages" /></a>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🌐 Frontend</h4>
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,redux,tailwind&perline=3&theme=dark" alt="Frontend" /></a>
+    </td>
+    <td width="33%" valign="top">
+      <h4>⚙️ Backend &amp; Tooling</h4>
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,firebase,git,githubactions,npm,vscode&perline=3&theme=dark" alt="Backend & Tools" /></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -65,32 +74,41 @@ Below are some of my primary projects. Click on the project name to view the rep
 
 ---
 
-### 📊 GitHub Metrics
+### 📊 Developer Dashboard
 
-Here is a quick look at my repository stats and code commits, custom-themed to match the portfolio website's slate-black, indigo, and purple theme:
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rjviernes620&show_icons=true&theme=custom&bg_color=0a0b10&title_color=6366f1&icon_color=00ff88&text_color=c9d1d9&border_color=1f2029&count_private=true" alt="Roel-Junior's GitHub Stats" height="195" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rjviernes620&background=0a0b10&border=1f2029&stroke=c9d1d9&ring=6366f1&fire=00ff88&currStreakNum=a855f7&sideNums=c9d1d9&sideLabels=c9d1d9&dates=c9d1d9" alt="Roel-Junior's Commit Streak" height="195" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rjviernes620&layout=compact&theme=custom&bg_color=0a0b10&title_color=6366f1&text_color=c9d1d9&border_color=1f2029&langs_count=6" alt="Roel-Junior's Top Languages" width="60%" />
-</p>
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td valign="top" align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=rjviernes620&show_icons=true&theme=custom&bg_color=0a0b10&title_color=6366f1&icon_color=a855f7&text_color=f3f4f6&border_color=ffffff14&count_private=true" alt="Roel-Junior's GitHub Stats" height="195" />
+      </td>
+      <td valign="top" align="center">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=rjviernes620&background=0a0b10&border=ffffff14&stroke=f3f4f6&ring=6366f1&fire=a855f7&currStreakNum=a855f7&sideNums=f3f4f6&sideLabels=f3f4f6&dates=f3f4f6" alt="Roel-Junior's Commit Streak" height="195" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center" valign="top">
+        <br />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rjviernes620&layout=compact&theme=custom&bg_color=0a0b10&title_color=6366f1&text_color=f3f4f6&border_color=ffffff14&langs_count=6" alt="Roel-Junior's Top Languages" width="100%" style="max-width: 600px;" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-### 🔄 Dynamic Activity Feed
+### 🔄 Live Activity Feed
 
-*This section is updated dynamically using GitHub Actions.*
+<p align="left">
+  <img src="https://img.shields.io/badge/Activity-Live_Stream-6366f1?style=for-the-badge&logo=githubactions&logoColor=white" alt="Live Stream" />
+</p>
 
-#### ⚡ Recent Activity
 <!--START_SECTION:activity-->
-*Waiting for GitHub Action runner...*
+*Waiting for the GitHub Action to populate recent activities...*
 <!--END_SECTION:activity-->
 
 ---
 
 <p align="center">
-  <sub>Designed with ❤️ to match rjaviernes.codes by Roel-Junior Viernes. Let's build something awesome!</sub>
+  <sub>Designed with ❤️ to match rjviernes.tech by Roel-Junior Viernes. Let's build something awesome!</sub>
 </p>
