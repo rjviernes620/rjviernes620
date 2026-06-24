@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Roel Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/rjviernes620/rjviernes620/main/assets/banner.svg" alt="Roel Banner" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/typing.svg" alt="Typing SVG" width="600" height="50" />
+  <img src="https://raw.githubusercontent.com/rjviernes620/rjviernes620/main/assets/typing.svg" alt="Typing SVG" width="600" height="50" />
 </p>
 
 <p align="center">
@@ -22,7 +22,10 @@
 
 ### 🪐 About Me
 
-
+```bash
+$ npx roel-junior --quote
+"I code things which look cool and automate tasks I'm too lazy to do in real life." ⚙️✨
+```
 
 - 🧑💻 **Who I am**: Full-stack developer & tooling enthusiast who loves creating slick UIs and building custom automations.
 - 📆 **Active since**: July 2018.
@@ -75,11 +78,11 @@ Below are some of my primary projects. Click on the project name to view the rep
   <table border="0" cellpadding="0" cellspacing="0">
     <tr>
       <td valign="top" align="center">
-        <img src="assets/stats.svg" alt="Roel's GitHub Stats" width="495" height="195" />
+        <img src="https://raw.githubusercontent.com/rjviernes620/rjviernes620/main/assets/stats.svg" alt="Roel's GitHub Stats" width="495" height="195" />
       </td>
       <td width="10"></td>
       <td valign="top" align="center">
-        <img src="assets/languages.svg" alt="Roel's Top Languages" width="495" height="195" />
+        <img src="https://raw.githubusercontent.com/rjviernes620/rjviernes620/main/assets/languages.svg" alt="Roel's Top Languages" width="495" height="195" />
       </td>
     </tr>
   </table>
