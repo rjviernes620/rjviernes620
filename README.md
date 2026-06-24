@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rjviernes620/rjviernes620/main/assets/banner.svg" alt="Roel Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/rjviernes620/rjviernes620/main/assets/banner.svg?sanitize=true" alt="Roel Banner" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rjviernes620/rjviernes620/main/assets/typing.svg" alt="Typing SVG" width="600" height="50" />
+  <img src="https://raw.githubusercontent.com/rjviernes620/rjviernes620/main/assets/typing.svg?sanitize=true" alt="Typing SVG" width="600" height="50" />
 </p>
 
 <p align="center">
@@ -78,11 +78,11 @@ Below are some of my primary projects. Click on the project name to view the rep
   <table border="0" cellpadding="0" cellspacing="0">
     <tr>
       <td valign="top" align="center">
-        <img src="https://raw.githubusercontent.com/rjviernes620/rjviernes620/main/assets/stats.svg" alt="Roel's GitHub Stats" width="495" height="195" />
+        <img src="https://raw.githubusercontent.com/rjviernes620/rjviernes620/main/assets/stats.svg?sanitize=true" alt="Roel's GitHub Stats" width="495" height="195" />
       </td>
       <td width="10"></td>
       <td valign="top" align="center">
-        <img src="https://raw.githubusercontent.com/rjviernes620/rjviernes620/main/assets/languages.svg" alt="Roel's Top Languages" width="495" height="195" />
+        <img src="https://raw.githubusercontent.com/rjviernes620/rjviernes620/main/assets/languages.svg?sanitize=true" alt="Roel's Top Languages" width="495" height="195" />
       </td>
     </tr>
   </table>
