@@ -24,10 +24,7 @@
 
 ### 🪐 About Me
 
-```bash
-$ npx roel-junior --quote
-"I code things which look cool and automate tasks I'm too lazy to do in real life." ⚙️✨
-```
+
 
 - 🧑💻 **Who I am**: Full-stack developer & tooling enthusiast who loves creating slick UIs and building custom automations.
 - 📆 **Active since**: July 2018.
@@ -69,42 +66,32 @@ Below are some of my primary projects. Click on the project name to view the rep
 | 🔧 **[juicegels_v2](https://github.com/rjviernes620/juicegels_v2)** | ![TypeScript](https://img.shields.io/badge/-TypeScript-6366f1?style=flat-square&logo=typescript&logoColor=white) | Major active project under development. Focuses on full-stack web and advanced tooling. |
 | 🌐 **[web](https://github.com/rjviernes620/web)** | ![TypeScript](https://img.shields.io/badge/-TypeScript-6366f1?style=flat-square&logo=typescript&logoColor=white) | Front-end web application deployed and running on GitHub Pages. |
 | 📊 **[SM-Dashboard](https://github.com/rjviernes620/SM-Dashboard)** | ![TypeScript](https://img.shields.io/badge/-TypeScript-6366f1?style=flat-square&logo=typescript&logoColor=white) | Web-based analytics/monitoring dashboard built for clean data visualization. |
-| 💼 **[portfolio](https://github.com/rjviernes620/portfolio)** | ![HTML5](https://img.shields.io/badge/-HTML5-a855f7?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-6366f1?style=flat-square&logo=css3&logoColor=white) | Personal portfolio site presenting coding works and projects. |
-| 📄 **[Roel CV](https://github.com/rjviernes620/Roel_Junior_Alejo_Viernes___CV)** | ![LaTeX](https://img.shields.io/badge/-LaTeX-a855f7?style=flat-square&logo=latex&logoColor=white) | Clean, reproducible CV / résumé template formatted in LaTeX. |
+| 📄 **[Roel CV](https://github.com/rjviernes620/Roel_Junior_Alejo_Viernes___CV)** | ![LaTeX](https://img.shields.io/badge/-LaTeX-a855f7?style=flat-square&logo=latex&logoColor=white) | MY CV's / résumé template formatted in LaTeX. |
 
 ---
 
-### 📊 Developer Dashboard
+### 📊 GitHub Metrics
 
-<div align="center">
-  <table border="0" cellpadding="0" cellspacing="0">
-    <tr>
-      <td valign="top" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=rjviernes620&show_icons=true&theme=custom&bg_color=0a0b10&title_color=6366f1&icon_color=a855f7&text_color=f3f4f6&border_color=ffffff14&count_private=true" alt="Roel-Junior's GitHub Stats" height="195" />
-      </td>
-      <td valign="top" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=rjviernes620&background=0a0b10&border=ffffff14&stroke=f3f4f6&ring=6366f1&fire=a855f7&currStreakNum=a855f7&sideNums=f3f4f6&sideLabels=f3f4f6&dates=f3f4f6" alt="Roel-Junior's Commit Streak" height="195" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center" valign="top">
-        <br />
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rjviernes620&layout=compact&theme=custom&bg_color=0a0b10&title_color=6366f1&text_color=f3f4f6&border_color=ffffff14&langs_count=6" alt="Roel-Junior's Top Languages" width="100%" style="max-width: 600px;" />
-      </td>
-    </tr>
-  </table>
-</div>
+Here is a quick look at my repository stats and code commits, custom-themed to match the portfolio website's slate-black, indigo, and purple theme:
 
----
-
-### 🔄 Live Activity Feed
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Activity-Live_Stream-6366f1?style=for-the-badge&logo=githubactions&logoColor=white" alt="Live Stream" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rjviernes620&show_icons=true&theme=custom&bg_color=0a0b10&title_color=6366f1&icon_color=a855f7&text_color=f3f4f6&border_color=ffffff14&count_private=true" alt="Roel-Junior's GitHub Stats" height="195" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rjviernes620&background=0a0b10&border=ffffff14&stroke=f3f4f6&ring=6366f1&fire=a855f7&currStreakNum=a855f7&sideNums=f3f4f6&sideLabels=f3f4f6&dates=f3f4f6" alt="Roel-Junior's Commit Streak" height="195" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rjviernes620&layout=compact&theme=custom&bg_color=0a0b10&title_color=6366f1&text_color=f3f4f6&border_color=ffffff14&langs_count=6" alt="Roel-Junior's Top Languages" width="60%" />
+</p>
+
+---
+
+### 🔄 Dynamic Activity Feed
+
+*This section is updated dynamically using GitHub Actions.*
+
+#### ⚡ Recent Activity
 <!--START_SECTION:activity-->
-*Waiting for the GitHub Action to populate recent activities...*
+*Waiting for GitHub Action runner...*
 <!--END_SECTION:activity-->
 
 ---
