@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+  <rect x="0.5" y="0.5" width="494" height="194" rx="10" fill="#0a0b10" stroke="#1f2029" stroke-width="1" />
+  <text x="247.5" y="97.5" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="16" fill="#6366f1" text-anchor="middle">Loading Languages...</text>
+  <text x="247.5" y="125" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="500" font-size="12" fill="#ffffff" fill-opacity="0.4" text-anchor="middle">Updated via GitHub Actions</text>
+</svg>

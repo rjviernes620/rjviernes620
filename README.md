@@ -3,9 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rjviernes620">
-    <img src="https://readme-typing-svg.demolab.com?font=Inconsolata&size=22&duration=3000&pause=1000&color=6366f1&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Tooling+and+Automation+Enthusiast;I+code+things+which+look+cool;Welcome+to+my+digital+playground!+✨" alt="Typing SVG" />
-  </a>
+  <img src="assets/typing.svg" alt="Typing SVG" width="600" height="50" />
 </p>
 
 <p align="center">
@@ -24,10 +22,7 @@
 
 ### 🪐 About Me
 
-```bash
-$ npx roel-junior --quote
-"I code things which look cool and automate tasks I'm too lazy to do in real life." ⚙️✨
-```
+
 
 - 🧑💻 **Who I am**: Full-stack developer & tooling enthusiast who loves creating slick UIs and building custom automations.
 - 📆 **Active since**: July 2018.
@@ -80,16 +75,11 @@ Below are some of my primary projects. Click on the project name to view the rep
   <table border="0" cellpadding="0" cellspacing="0">
     <tr>
       <td valign="top" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=rjviernes620&show_icons=true&theme=custom&bg_color=0a0b10&title_color=6366f1&icon_color=a855f7&text_color=f3f4f6&border_color=1f2029&count_private=true" alt="Roel's GitHub Stats" height="195" />
+        <img src="assets/stats.svg" alt="Roel's GitHub Stats" width="495" height="195" />
       </td>
+      <td width="10"></td>
       <td valign="top" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=rjviernes620&background=0a0b10&border=1f2029&stroke=f3f4f6&ring=6366f1&fire=a855f7&currStreakNum=a855f7&sideNums=f3f4f6&sideLabels=f3f4f6&dates=f3f4f6" alt="Roel's Commit Streak" height="195" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center" valign="top">
-        <br />
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rjviernes620&layout=compact&theme=custom&bg_color=0a0b10&title_color=6366f1&text_color=f3f4f6&border_color=1f2029&langs_count=6" alt="Roel's Top Languages" width="100%" style="max-width: 600px;" />
+        <img src="assets/languages.svg" alt="Roel's Top Languages" width="495" height="195" />
       </td>
     </tr>
   </table>

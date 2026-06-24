@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 50" width="100%" height="50">
+  <defs>
+    <!-- Fonts -->
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&amp;display=swap');
+      
+      .typing-text {
+        font-family: 'Inconsolata', Consolas, Monaco, 'Courier New', monospace;
+        font-size: 22px;
+        fill: #6366f1;
+        font-weight: 500;
+        dominant-baseline: middle;
+        text-anchor: middle;
+      }
+
+      /* Animated Clip-Rects */
+      .clip-rect-1 {
+        animation: type1 16s infinite;
+      }
+      .clip-rect-2 {
+        animation: type2 16s infinite;
+      }
+      .clip-rect-3 {
+        animation: type3 16s infinite;
+      }
+      .clip-rect-4 {
+        animation: type4 16s infinite;
+      }
+
+      /* Animated Groups Opacity */
+      .group-1 { animation: opacity1 16s infinite; }
+      .group-2 { animation: opacity2 16s infinite; }
+      .group-3 { animation: opacity3 16s infinite; }
+      .group-4 { animation: opacity4 16s infinite; }
+
+      /* Keyframes for Typing Reveals */
+      @keyframes type1 {
+        0% { width: 0; }
+        8% { width: 264px; }         /* 1.28s - typing finished */
+        22% { width: 264px; }        /* 3.52s - hold */
+        24%, 100% { width: 0; }      /* 3.84s to 16s - hidden */
+      }
+
+      @keyframes type2 {
+        0%, 25% { width: 0; }        /* 0s to 4s - hidden */
+        33% { width: 422px; }        /* 5.28s - typing finished */
+        47% { width: 422px; }        /* 7.52s - hold */
+        49%, 100% { width: 0; }      /* 7.84s to 16s - hidden */
+      }
+
+      @keyframes type3 {
+        0%, 50% { width: 0; }        /* 0s to 8s - hidden */
+        58% { width: 383px; }        /* 9.28s - typing finished */
+        72% { width: 383px; }        /* 11.52s - hold */
+        74%, 100% { width: 0; }      /* 11.84s to 16s - hidden */
+      }
+
+      @keyframes type4 {
+        0%, 75% { width: 0; }        /* 0s to 12s - hidden */
+        83% { width: 462px; }        /* 13.28s - typing finished */
+        97% { width: 462px; }        /* 15.52s - hold */
+        99%, 100% { width: 0; }      /* 15.84s to 16s - hidden */
+      }
+
+      /* Keyframes for Opacity */
+      @keyframes opacity1 {
+        0%, 23% { opacity: 1; }      /* Active from 0s to 3.68s */
+        24%, 100% { opacity: 0; }
+      }
+
+      @keyframes opacity2 {
+        0%, 24% { opacity: 0; }
+        25%, 48% { opacity: 1; }      /* Active from 4s to 7.68s */
+        49%, 100% { opacity: 0; }
+      }
+
+      @keyframes opacity3 {
+        0%, 49% { opacity: 0; }
+        50%, 73% { opacity: 1; }      /* Active from 8s to 11.68s */
+        74%, 100% { opacity: 0; }
+      }
+
+      @keyframes opacity4 {
+        0%, 74% { opacity: 0; }
+        75%, 98% { opacity: 1; }      /* Active from 12s to 15.68s */
+        99%, 100% { opacity: 0; }
+      }
+    </style>
+
+    <!-- Clip Paths to reveal text from left to right starting at text start x -->
+    <clipPath id="clip1">
+      <rect class="clip-rect-1" x="168" y="0" width="0" height="50" />
+    </clipPath>
+    <clipPath id="clip2">
+      <rect class="clip-rect-2" x="89" y="0" width="0" height="50" />
+    </clipPath>
+    <clipPath id="clip3">
+      <rect class="clip-rect-3" x="108" y="0" width="0" height="50" />
+    </clipPath>
+    <clipPath id="clip4">
+      <rect class="clip-rect-4" x="69" y="0" width="0" height="50" />
+    </clipPath>
+  </defs>
+
+  <!-- Centered text groups -->
+  <!-- Sentence 1 -->
+  <g class="group-1" clip-path="url(#clip1)">
+    <text x="300" y="25" class="typing-text">Full-Stack Developer</text>
+  </g>
+
+  <!-- Sentence 2 -->
+  <g class="group-2" clip-path="url(#clip2)">
+    <text x="300" y="25" class="typing-text">Tooling &amp; Automation Enthusiast</text>
+  </g>
+
+  <!-- Sentence 3 -->
+  <g class="group-3" clip-path="url(#clip3)">
+    <text x="300" y="25" class="typing-text">I code things which look cool</text>
+  </g>
+
+  <!-- Sentence 4 -->
+  <g class="group-4" clip-path="url(#clip4)">
+    <text x="300" y="25" class="typing-text">Welcome to my digital playground! ✨</text>
+  </g>
+</svg>
