@@ -93,7 +93,7 @@ Below are some of my primary projects. Click on the project name to view the rep
 </p>
 
 <!--START_SECTION:activity-->
-*No recent public commits, PRs, or issues.*
+- 🌱 Created branch `main` in [portfolio-ate](https://github.com/rjviernes620/portfolio-ate)
 <!--END_SECTION:activity-->
 
 ---
