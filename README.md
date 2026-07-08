@@ -22,15 +22,11 @@
 
 ### 🪐 About Me
 
-```bash
-$ npx roel-junior --quote
-"I code things which look cool and automate tasks I'm too lazy to do in real life." ⚙️✨
-```
 
-- 🧑💻 **Who I am**: Full-stack developer & tooling enthusiast who loves creating slick UIs and building custom automations.
+- 🧑💻 **Who I am**: Full-stack developer & tooling enthusiast who loves creating cool things, UI's, Apps and automates cool things too.
 - 📆 **Active since**: July 2018.
 - ⚙️ **Currently working on**: [juicegels_v2](https://github.com/rjviernes620/juicegels_v2) (TypeScript).
-- 📚 **Learning**: Deeper TypeScript architectures, advanced web tooling, and performance optimization.
+- 📚 **Learning**: Deeper TypeScript architectures, advanced web tooling, Databases, and performance optimization.
 - 🤝 **Collaboration**: Always down to collaborate on tooling, custom dashboards, or web automation.
 
 ---
@@ -101,11 +97,11 @@ Below are some of my primary projects. Click on the project name to view the rep
 </p>
 
 <!--START_SECTION:activity-->
-*Waiting for the GitHub Action to populate recent activities...*
+- 🌱 Created branch `main` in [portfolio-ate](https://github.com/rjviernes620/portfolio-ate)
 <!--END_SECTION:activity-->
 
 ---
 
 <p align="center">
-  <sub>Designed with ❤️ to match rjviernes.tech by Roel Viernes. Let's build something awesome!</sub>
+  <sub>Feel free to reach out!</sub>
 </p>
