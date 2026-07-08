@@ -41,17 +41,21 @@ I specialize in building modular web apps and automation workflows using the fol
 
 <table width="100%">
   <tr>
-    <td width="33%" valign="top">
+    <td width="25%" valign="top">
       <h4>💻 Languages</h4>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,py,html,css,latex&perline=3&theme=dark" alt="Languages" /></a>
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,java,py,html,css,latex&perline=3&theme=dark" alt="Languages" /></a>
     </td>
-    <td width="33%" valign="top">
+    <td width="25%" valign="top">
       <h4>🌐 Frontend</h4>
       <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,redux,tailwind&perline=3&theme=dark" alt="Frontend" /></a>
     </td>
-    <td width="33%" valign="top">
+    <td width="25%" valign="top">
       <h4>⚙️ Backend &amp; Tooling</h4>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,firebase,git,githubactions,npm,vscode&perline=3&theme=dark" alt="Backend & Tools" /></a>
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,cloudflare,git,githubactions,npm,vscode&perline=3&theme=dark" alt="Backend & Tools" /></a>
+    </td>
+    <td width="25%" valign="top">
+      <h4>📊 Social Media/Content</h4>
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=premiere,aftereffects,canva,photoshop,instagram,davinci&perline=3&theme=dark" alt="Social Media/Content" /></a>
     </td>
   </tr>
 </table>
