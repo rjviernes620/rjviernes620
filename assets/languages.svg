@@ -7,7 +7,7 @@
   <!-- Progress Bar -->
   <g>
     <rect x="25" y="60" width="445" height="10" fill="#111219" rx="5" ry="5" />
-    <rect x="25" y="60" width="284.7745308345132" height="10" fill="#3178c6" rx="5" ry="5"  /><rect x="309.7745308345132" y="60" width="92.39166447678396" height="10" fill="#3572A5"   /><rect x="309.7745308345132" y="60" width="3" height="10" fill="#3572A5" /><rect x="402.16619531129714" y="60" width="26.760911693510575" height="10" fill="#663399"   /><rect x="402.16619531129714" y="60" width="3" height="10" fill="#663399" /><rect x="428.92710700480774" y="60" width="17.157686604053385" height="10" fill="#e34c26"   /><rect x="428.92710700480774" y="60" width="3" height="10" fill="#e34c26" /><rect x="446.0847936088611" y="60" width="16.69070038815912" height="10" fill="#f1e05a"   /><rect x="446.0847936088611" y="60" width="3" height="10" fill="#f1e05a" /><rect x="462.77549399702025" y="60" width="7.224506002979784" height="10" fill="#3D6117"  rx="5" ry="5" /><rect x="462.77549399702025" y="60" width="3" height="10" fill="#3D6117" />
+    <rect x="25" y="60" width="284.5578406750759" height="10" fill="#3178c6" rx="5" ry="5"  /><rect x="309.5578406750759" y="60" width="92.51616949233097" height="10" fill="#3572A5"   /><rect x="309.5578406750759" y="60" width="3" height="10" fill="#3572A5" /><rect x="402.07401016740687" y="60" width="26.79774789212649" height="10" fill="#663399"   /><rect x="402.07401016740687" y="60" width="3" height="10" fill="#663399" /><rect x="428.87175805953336" y="60" width="17.180807932687152" height="10" fill="#e34c26"   /><rect x="428.87175805953336" y="60" width="3" height="10" fill="#e34c26" /><rect x="446.05256599222054" y="60" width="16.713192416234236" height="10" fill="#f1e05a"   /><rect x="446.05256599222054" y="60" width="3" height="10" fill="#f1e05a" /><rect x="462.76575840845476" y="60" width="7.234241591545206" height="10" fill="#3D6117"  rx="5" ry="5" /><rect x="462.76575840845476" y="60" width="3" height="10" fill="#3D6117" />
   </g>
 
   <!-- Legends -->
@@ -16,7 +16,7 @@
     <g transform="translate(25, 95)">
       <circle cx="6" cy="6" r="6" fill="#3178c6" />
       <text x="20" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#f3f4f6">TypeScript</text>
-      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">64.0%</text>
+      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">63.9%</text>
     </g>
     <g transform="translate(255, 95)">
       <circle cx="6" cy="6" r="6" fill="#3572A5" />
