@@ -7,7 +7,7 @@
   <!-- Progress Bar -->
   <g>
     <rect x="25" y="60" width="445" height="10" fill="#111219" rx="5" ry="5" />
-    <rect x="25" y="60" width="275.13366866872144" height="10" fill="#3178c6" rx="5" ry="5"  /><rect x="300.13366866872144" y="60" width="100.22057953906283" height="10" fill="#3572A5"   /><rect x="300.13366866872144" y="60" width="3" height="10" fill="#3572A5" /><rect x="400.3542482077843" y="60" width="27.091885375930815" height="10" fill="#663399"   /><rect x="400.3542482077843" y="60" width="3" height="10" fill="#663399" /><rect x="427.4461335837151" y="60" width="19.612553255638726" height="10" fill="#e34c26"   /><rect x="427.4461335837151" y="60" width="3" height="10" fill="#e34c26" /><rect x="447.0586868393538" y="60" width="16.011008987869403" height="10" fill="#f1e05a"   /><rect x="447.0586868393538" y="60" width="3" height="10" fill="#f1e05a" /><rect x="463.0696958272232" y="60" width="6.930304172776756" height="10" fill="#3D6117"  rx="5" ry="5" /><rect x="463.0696958272232" y="60" width="3" height="10" fill="#3D6117" />
+    <rect x="25" y="60" width="275.6947540566267" height="10" fill="#3178c6" rx="5" ry="5"  /><rect x="300.6947540566267" y="60" width="99.88832931175702" height="10" fill="#3572A5"   /><rect x="300.6947540566267" y="60" width="3" height="10" fill="#3572A5" /><rect x="400.58308336838377" y="60" width="27.00286952383061" height="10" fill="#663399"   /><rect x="400.58308336838377" y="60" width="3" height="10" fill="#663399" /><rect x="427.5859528922144" y="60" width="19.548112257321858" height="10" fill="#e34c26"   /><rect x="427.5859528922144" y="60" width="3" height="10" fill="#e34c26" /><rect x="447.13406514953624" y="60" width="15.958401589445023" height="10" fill="#f1e05a"   /><rect x="447.13406514953624" y="60" width="3" height="10" fill="#f1e05a" /><rect x="463.0924667389813" y="60" width="6.9075332610187505" height="10" fill="#3D6117"  rx="5" ry="5" /><rect x="463.0924667389813" y="60" width="3" height="10" fill="#3D6117" />
   </g>
 
   <!-- Legends -->
@@ -16,12 +16,12 @@
     <g transform="translate(25, 95)">
       <circle cx="6" cy="6" r="6" fill="#3178c6" />
       <text x="20" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#f3f4f6">TypeScript</text>
-      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">61.8%</text>
+      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">62.0%</text>
     </g>
     <g transform="translate(255, 95)">
       <circle cx="6" cy="6" r="6" fill="#3572A5" />
       <text x="20" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#f3f4f6">Python</text>
-      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">22.5%</text>
+      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">22.4%</text>
     </g>
     <g transform="translate(25, 123)">
       <circle cx="6" cy="6" r="6" fill="#663399" />
