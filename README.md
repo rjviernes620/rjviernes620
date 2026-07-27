@@ -97,7 +97,7 @@ Below are some of my primary projects. Click on the project name to view the rep
 </p>
 
 <!--START_SECTION:activity-->
-*No recent public activity found.*
+*No recent public commits, PRs, or issues.*
 <!--END_SECTION:activity-->
 
 ---
