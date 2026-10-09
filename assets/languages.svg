@@ -7,7 +7,7 @@
   <!-- Progress Bar -->
   <g>
     <rect x="25" y="60" width="445" height="10" fill="#111219" rx="5" ry="5" />
-    <rect x="25" y="60" width="270.65899176750423" height="10" fill="#3178c6" rx="5" ry="5"  /><rect x="295.65899176750423" y="60" width="102.52994942702011" height="10" fill="#3572A5"   /><rect x="295.65899176750423" y="60" width="3" height="10" fill="#3572A5" /><rect x="398.1889411945243" y="60" width="23.741193170278162" height="10" fill="#663399"   /><rect x="398.1889411945243" y="60" width="3" height="10" fill="#663399" /><rect x="421.9301343648025" y="60" width="19.942160398265038" height="10" fill="#e34c26"   /><rect x="421.9301343648025" y="60" width="3" height="10" fill="#e34c26" /><rect x="441.87229476306754" y="60" width="18.601753580278118" height="10" fill="#f1e05a"   /><rect x="441.87229476306754" y="60" width="3" height="10" fill="#f1e05a" /><rect x="460.47404834334566" y="60" width="9.525951656654374" height="10" fill="#3D6117"  rx="5" ry="5" /><rect x="460.47404834334566" y="60" width="3" height="10" fill="#3D6117" />
+    <rect x="25" y="60" width="275.304701284395" height="10" fill="#3178c6" rx="5" ry="5"  /><rect x="300.304701284395" y="60" width="99.79780759390516" height="10" fill="#3572A5"   /><rect x="300.304701284395" y="60" width="3" height="10" fill="#3572A5" /><rect x="400.1025088783001" y="60" width="23.108555512783273" height="10" fill="#663399"   /><rect x="400.1025088783001" y="60" width="3" height="10" fill="#663399" /><rect x="423.21106439108337" y="60" width="19.41075654045303" height="10" fill="#e34c26"   /><rect x="423.21106439108337" y="60" width="3" height="10" fill="#e34c26" /><rect x="442.6218209315364" y="60" width="18.106067886390704" height="10" fill="#f1e05a"   /><rect x="442.6218209315364" y="60" width="3" height="10" fill="#f1e05a" /><rect x="460.72788881792707" y="60" width="9.272111182072834" height="10" fill="#3D6117"  rx="5" ry="5" /><rect x="460.72788881792707" y="60" width="3" height="10" fill="#3D6117" />
   </g>
 
   <!-- Legends -->
@@ -16,27 +16,27 @@
     <g transform="translate(25, 95)">
       <circle cx="6" cy="6" r="6" fill="#3178c6" />
       <text x="20" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#f3f4f6">TypeScript</text>
-      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">60.8%</text>
+      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">61.9%</text>
     </g>
     <g transform="translate(255, 95)">
       <circle cx="6" cy="6" r="6" fill="#3572A5" />
       <text x="20" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#f3f4f6">Python</text>
-      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">23.0%</text>
+      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">22.4%</text>
     </g>
     <g transform="translate(25, 123)">
       <circle cx="6" cy="6" r="6" fill="#663399" />
       <text x="20" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#f3f4f6">CSS</text>
-      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">5.3%</text>
+      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">5.2%</text>
     </g>
     <g transform="translate(255, 123)">
       <circle cx="6" cy="6" r="6" fill="#e34c26" />
       <text x="20" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#f3f4f6">HTML</text>
-      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">4.5%</text>
+      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">4.4%</text>
     </g>
     <g transform="translate(25, 151)">
       <circle cx="6" cy="6" r="6" fill="#f1e05a" />
       <text x="20" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#f3f4f6">JavaScript</text>
-      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">4.2%</text>
+      <text x="140" y="10" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.6">4.1%</text>
     </g>
     <g transform="translate(255, 151)">
       <circle cx="6" cy="6" r="6" fill="#3D6117" />
